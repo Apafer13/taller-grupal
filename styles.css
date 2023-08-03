@@ -6,14 +6,18 @@ div{
     place-items: center;
 }
 .image{
-    border: 2px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
     height: 400px;
 }
 .image:active{
     display: inline-flex;
     cursor: grab;
-    transform: scale(1.2);
+    transform: scale(1.3);
+
+}
+.image:hover{
+    background-color: blue;
 }
 .link-button {
     text-decoration: none;
